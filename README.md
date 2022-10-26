@@ -6,7 +6,7 @@
 - Tikrinamas sukurto **_nonce_** sudėtingumas ar atitinka nustatytąjį.
 - Jeigu **_nonce_** sudėtingumas atitinka, pereinama prie funkcijos **_gen_block(int, int, vector<transac> &, int)_** kur **_merkel_root_hash_** yra gaunamas suhashinus visas transakcijas, kurios yra bloke. Taip pat tos transakcijos yra pašalinamos. 
   
-Informacija apie blokus yra pateikiama tekstiniame faile **_result.txt_**:
+## Informacija apie blokus yra pateikiama tekstiniame faile **_result.txt_**:
   
 ```
 Block of the blockchain 1: 
@@ -18,3 +18,8 @@ Nonce: 5950
 Difficulty: 1
 Number of transactions: 100
 ```
+
+## Kaip pasileisti programą:
+- Parsisiųsti ir įsidiegti C++ kompiliatorių
+- Norint sukompiliuoti programą terminale rašykite make
+- Norint paleisti programą terminale rašykite ./prog
